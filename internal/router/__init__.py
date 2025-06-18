@@ -5,3 +5,9 @@
 @Author : qin863
 @File   : __init__.py.py
 """
+from internal.router.router import Router
+
+__all__ = [
+    'Router',
+]
+
